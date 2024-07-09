@@ -1,0 +1,80 @@
+#
+# NOTE! Don't add files that are generated in specific
+# subdirectories here. Add them in the ".gitignore" file
+# in that subdirectory instead.
+#
+# NOTE! Please use 'git ls-files -i -c --exclude-per-directory=.gitignore'
+# command after changing this file, to see if there are
+# any tracked files which get ignored after the change.
+#
+# Normal rules (sorted alphabetically)
+#
+.*
+*.a
+*.bin
+*.bz2
+*.c.[012]*.*
+*.dtb
+*.dtb.S
+*.dwo
+*.elf
+*.gcno
+*.gz
+*.i
+*.ko
+*.ll
+*.lst
+*.lz4
+*.lzma
+*.lzo
+*.mod.c
+*.o
+*.o.*
+*.order
+*.patch
+*.s
+*.so
+*.so.dbg
+*.su
+*.symtypes
+*.tar
+*.tmp
+*.xz
+
+#
+# git files that we don't want to ignore even if they are dot-files
+#
+!.gitignore
+!.mailmap
+!.cspell.json
+!.jscpd.json
+!.mega-linter.yml
+
+
+# stgit generated dirs
+patches-*
+
+# quilt's files
+patches
+series
+
+# backup files
+*~
+\#*#
+~$*
+~*
+*.bak
+*.backup
+*.log
+*.log.*
+*.old
+*.org
+*.orig
+
+# temporary files and directories
+tmp-*
+tmp.*
+tmp_*
+*.tmp
+*-tmp
+*_tmp
