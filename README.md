@@ -7,6 +7,8 @@ Install to rootless Docker
 ------------------------------
 
 ```shell
+install -d -m 0755 "${HOME}/.local/bin"
+
 install -m 0755 scripts/restrict-containers-rootless.sh \
     "${HOME}/.local/bin/restrict-containers-rootless.sh"
 ```
